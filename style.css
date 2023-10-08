@@ -1,0 +1,44 @@
+.card{
+    width: 400px;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+}
+
+img{
+    width: 400px;
+    border-radius: 25px;
+}
+
+#catimage{
+    width: 400px;
+    height: 266.66px;
+    border-radius: 25px;
+    background-size:cover; 
+}
+
+h2 {
+    color: #d56f3e;
+  }
+
+span {
+    color: #9d6f24;
+}
+
+h4{
+    text-align: right;
+    color: #3c787e;
+}
+
+#pets{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media(max-width : 375px){
+    #pets{
+        flex-wrap: wrap;
+    }
+}
